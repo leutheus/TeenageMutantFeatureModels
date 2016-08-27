@@ -46,10 +46,31 @@ This chapter describes the required steps to get started.
  * Interactions
  * Variants
  * Any combination of the above (Multi-objective)
+![varmod](https://github.com/leutheus/TeenageMutantFeatureModels/blob/master/docs/varmod.png)
+
 #### Feature Distribution
 1. Chose from the predefined non-functional properties binarysize, mainmemory, performance or a random function
 2. Select one system as the target feature distribution
 3. Bootstrap the data sample to the targeted variability model size
-4. 
+ * It is possible to repeat the bootstrap process to receive another random draw of the density estimate
+4. Select one distribution as target feature distribution
+![feat](https://github.com/leutheus/TeenageMutantFeatureModels/blob/master/docs/feat.png)
 
+#### Interaction Distribution
+1. Same as feature distribution just for the interactions
+
+#### Variant Distribution
+TODO
+
+#### Variant Sampling
+TODO
+
+#### Genetic Settings
+TODO
+
+#### Evolution
+TODO
+
+#### Solutions
+TODO
 
