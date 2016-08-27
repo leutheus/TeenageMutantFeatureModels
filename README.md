@@ -1,8 +1,12 @@
-# TeenageMutantFeatureModels
 
-A genetic generator for attributed variability models written in C#.
-![Overview](https://github.com/leutheus/TeenageMutantFeatureModels/blob/master/docs/overview.png)
+# TeenageMutantFeatureModels</h1>
+============================
+## A genetic generator for realistic attributed variability models</h2>
 
+
+<p align="center">
+<img alt="overview" src="https://github.com/leutheus/TeenageMutantFeatureModels/blob/master/docs/overview.png" width="546">
+</p>
 With the help of:
 * [SPLConqueror] (https://github.com/nsiegmun/SPLConqueror)
 * [JMetal.Net] (http://jmetalnet.sourceforge.net/)
