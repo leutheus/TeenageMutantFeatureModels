@@ -37,7 +37,7 @@ namespace IntergenDesktop.Forms
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            Text = @"Teenage Mutant Feature Models";
+            Text = @"THOR";
             _currentControl = new Start(_model, this) {Dock = DockStyle.Fill};
             //_currentControl = new FeatureModel(_model, button2) {Dock = DockStyle.Fill};
             tableLayoutPanel1.Controls.Add(_currentControl, 0, 1);
@@ -104,7 +104,7 @@ namespace IntergenDesktop.Forms
                 case State.EvolutionSettings:
                     if (_evoSetting == null) _evoSetting = new EvolutionSettings(_model, button2);
                     _currentControl = _evoSetting;
-                    label1.Text = @"Evolutionary Algorihtm Settings";
+                    label1.Text = @"Evolutionary Algorithm Settings";
                     break;
                 case State.Evolution:
                     if (_evolution == null) _evolution = new Evolution(_model, button2);

@@ -22,8 +22,8 @@ namespace IntergenDesktop.UserControls
             _nextButton.Enabled = false;
             _model.Setting.Parallel = true;
             textBox1.Text = @"5000";
-            _model.Setting.LogFolder = @"E:\FeatureModelGenerator\Stefan\Temp";// Environment.CurrentDirectory;
-            label52.Text = @"E:\FeatureModelGenerator\Stefan\Temp";//Environment.CurrentDirectory;
+            _model.Setting.LogFolder = Environment.CurrentDirectory;
+            label52.Text = Environment.CurrentDirectory;
             textBox2.Text = @"50";
             model.Setting.StopEarlyLevel = 1;
         }
@@ -165,7 +165,6 @@ namespace IntergenDesktop.UserControls
         {
             if (_model.Setting.Logging)
             {
-                Console.WriteLine("Loading Setting");
                 label52.Text = _model.Setting.LogFolder;
             }
         }

@@ -59,13 +59,13 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -185,12 +185,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(43, 18);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(109, 17);
             this.radioButton1.TabIndex = 19;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Cramer-von-Mises";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -472,9 +470,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // folderBrowserDialog2
+            // flowLayoutPanel2
             // 
-            this.folderBrowserDialog2.HelpRequest += new System.EventHandler(this.folderBrowserDialog2_HelpRequest);
+            this.flowLayoutPanel2.Controls.Add(this.checkBox2);
+            this.flowLayoutPanel2.Controls.Add(this.numericUpDown1);
+            this.flowLayoutPanel2.Controls.Add(this.label6);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(477, 244);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(468, 69);
+            this.flowLayoutPanel2.TabIndex = 29;
             // 
             // checkBox2
             // 
@@ -487,17 +492,6 @@
             this.checkBox2.Text = "Early Stop:  When Generational Distance < ";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.checkBox2);
-            this.flowLayoutPanel2.Controls.Add(this.numericUpDown1);
-            this.flowLayoutPanel2.Controls.Add(this.label6);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(477, 244);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(468, 69);
-            this.flowLayoutPanel2.TabIndex = 29;
             // 
             // numericUpDown1
             // 
@@ -531,6 +525,10 @@
             this.label6.Size = new System.Drawing.Size(15, 26);
             this.label6.TabIndex = 30;
             this.label6.Text = "%";
+            // 
+            // folderBrowserDialog2
+            // 
+            this.folderBrowserDialog2.HelpRequest += new System.EventHandler(this.folderBrowserDialog2_HelpRequest);
             // 
             // EvolutionSettings
             // 
