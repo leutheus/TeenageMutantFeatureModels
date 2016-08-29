@@ -1,5 +1,5 @@
 
-# TeenageMutantFeatureModels</h1>
+# THOR</h1>
 ============================
 ## A genetic generator for realistic attributed variability models</h2>
 
@@ -94,7 +94,8 @@ We recommend the usage of one of the ConfigSize sampling methods.
 
 #### Evolution
 ![evo](https://github.com/leutheus/TeenageMutantFeatureModels/blob/master/docs/evo.png)
-1. Select the Plot Stepsize: After how many evolution steps the plot is renewed.  (Plotting is slow)
+
+1. Select the Plot Stepsize: After how many evolution steps the plot is renewed. (Plotting is slow)
 2. Select if kernel density or histogram
 3. Select if the fitness values should be plotted
 4. Start the algorithm
